@@ -15,4 +15,148 @@
         Button9.BackColor = Color.LightBlue
         Button10.BackColor = Color.LightBlue
     End Sub
+     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        If turn = 1 Then
+            Button1.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button1.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button1.Enabled = False
+
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        If turn = 1 Then
+            Button2.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button2.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button2.Enabled = False
+    End Sub
+
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        If turn = 1 Then
+            Button3.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button3.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button3.Enabled = False
+    End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        If turn = 1 Then
+            Button4.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button4.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button4.Enabled = False
+    End Sub
+
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+        If turn = 1 Then
+            Button5.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button5.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button5.Enabled = False
+    End Sub
+
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+        If turn = 1 Then
+            Button6.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button6.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button6.Enabled = False
+    End Sub
+
+    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+        If turn = 1 Then
+            Button7.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button7.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button7.Enabled = False
+    End Sub
+
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+        If turn = 1 Then
+            Button8.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button8.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button8.Enabled = False
+    End Sub
+
+    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
+        If turn = 1 Then
+            Button9.Text = "O"
+            Label2.Text = "X"
+        Else
+            Button9.Text = "X"
+            Label2.Text = "O"
+        End If
+        turn += 1
+        If turn > 2 Then
+            turn = 1
+        End If
+        Call win()
+        Button9.Enabled = False
+    End Sub
 End Class
