@@ -204,5 +204,186 @@
             MessageBox.Show("Player X wins!")
             Label6.Text += 1
             Call disablebuttons()
+            
+            ElseIf Button1.Text = "X" And Button2.Text = "O" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "X" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "O" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "X" And Button2.Text = "O" And Button3.Text = "X" And Button4.Text = "O" And Button5.Text = "X" And Button6.Text = "O" And Button7.Text = "O" And Button8.Text = "X" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "X" And Button2.Text = "X" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "X" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "O" And Button2.Text = "X" And Button3.Text = "X" And Button4.Text = "X" And Button5.Text = "X" And Button6.Text = "O" And Button7.Text = "O" And Button8.Text = "O" And Button9.Text = "X" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "O" And Button2.Text = "X" And Button3.Text = "O" And Button4.Text = "X" And Button5.Text = "O" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "O" And Button9.Text = "X" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "O" And Button2.Text = "O" And Button3.Text = "X" And Button4.Text = "X" And Button5.Text = "O" And Button6.Text = "X" And Button7.Text = "O" And Button8.Text = "X" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "O" And Button2.Text = "O" And Button3.Text = "X" And Button4.Text = "X" And Button5.Text = "O" And Button6.Text = "O" And Button7.Text = "O" And Button8.Text = "X" And Button9.Text = "X" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "O" And Button2.Text = "O" And Button3.Text = "X" And Button4.Text = "X" And Button5.Text = "X" And Button6.Text = "O" And Button7.Text = "O" And Button8.Text = "X" And Button9.Text = "X" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "O" And Button2.Text = "X" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "O" And Button9.Text = "X" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "X" And Button2.Text = "O" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "X" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "X" And Button2.Text = "O" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "X" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "X" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "X" And Button2.Text = "O" And Button3.Text = "X" And Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "X" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "O" And Button2.Text = "X" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "X" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "O" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "X" And Button2.Text = "X" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "O" And Button9.Text = "X" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
+        If Button1.Text = "X" And Button2.Text = "O" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "X" And Button6.Text = "X" And Button7.Text = "O" And Button8.Text = "X" And Button9.Text = "O" Then
+            MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Button1.Text = ""
+            Button2.Text = ""
+            Button3.Text = ""
+            Button4.Text = ""
+            Button5.Text = ""
+            Button6.Text = ""
+            Button7.Text = ""
+            Button8.Text = ""
+            Button9.Text = ""
+        End If
     End Sub
 End Class
