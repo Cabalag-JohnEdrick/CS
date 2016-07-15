@@ -205,6 +205,40 @@
             Label6.Text += 1
             Call disablebuttons()
             
+        ElseIf Button1.Text = "O" And Button2.Text = "O" And Button3.Text = "O" Then
+            MessageBox.Show("Player O wins!")
+            Label7.Text += 1
+            Call disablebuttons()
+        ElseIf Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "O" Then
+            MessageBox.Show("Player O wins!")
+            Label7.Text += 1
+            Call disablebuttons()
+        ElseIf Button7.Text = "O" And Button8.Text = "O" And Button9.Text = "O" Then
+            MessageBox.Show("Player O wins!")
+            Label7.Text += 1
+            Call disablebuttons()
+        ElseIf Button1.Text = "O" And Button4.Text = "O" And Button7.Text = "O" Then
+            MessageBox.Show("Player O wins!")
+            Label7.Text += 1
+            Call disablebuttons()
+        ElseIf Button2.Text = "O" And Button5.Text = "O" And Button8.Text = "O" Then
+            MessageBox.Show("Player O wins!")
+            Label7.Text += 1
+            Call disablebuttons()
+        ElseIf Button3.Text = "O" And Button6.Text = "O" And Button9.Text = "O" Then
+            MessageBox.Show("Player O wins!")
+            Label7.Text += 1
+            Call disablebuttons()
+        ElseIf Button3.Text = "O" And Button5.Text = "O" And Button7.Text = "O" Then
+            MessageBox.Show("Player O wins!")
+            Label7.Text += 1
+            Call disablebuttons()
+        ElseIf Button1.Text = "O" And Button5.Text = "O" And Button9.Text = "O" Then
+            MessageBox.Show("Player O wins!")
+            Label7.Text += 1
+            Call disablebuttons()
+
+            
             ElseIf Button1.Text = "X" And Button2.Text = "O" And Button3.Text = "O" And Button4.Text = "O" And Button5.Text = "X" And Button6.Text = "X" And Button7.Text = "X" And Button8.Text = "O" And Button9.Text = "O" Then
             MessageBox.Show("Game Draw", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Button1.Text = ""
@@ -547,5 +581,32 @@
     End Sub
      Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged
         My.Computer.Audio.Play(My.Resources.music, AudioPlayMode.BackgroundLoop)
+    End Sub
+    
+    Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
+
+        Button1.Text = ""
+        Button1.Enabled = True
+        Button2.Text = ""
+        Button2.Enabled = True
+        Button3.Text = ""
+        Button3.Enabled = True
+        Button4.Text = ""
+        Button4.Enabled = True
+        Button5.Text = ""
+        Button5.Enabled = True
+        Button6.Text = ""
+        Button6.Enabled = True
+        Button7.Text = ""
+        Button7.Enabled = True
+        Button8.Text = ""
+        Button8.Enabled = True
+        Button9.Text = ""
+        Button9.Enabled = True
+    End Sub
+    
+    Private Sub Button11_Click(sender As System.Object, e As System.EventArgs) Handles Button11.Click
+        Label6.Text = 0
+        Label7.Text = 0
     End Sub
 End Class
